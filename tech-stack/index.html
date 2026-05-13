@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tech Stack — forBET Digital</title>
+  <meta name="description" content="The technologies our engineering team uses to build modern mobile applications and data platforms." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/assets/style.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="/" class="logo">forBET <span class="logo-accent">Digital</span></a>
+    <button class="burger" aria-label="Open menu" aria-expanded="false" aria-controls="main-menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<nav id="main-menu" class="fullscreen-menu" aria-hidden="true">
+  <div class="menu-nav">
+    <a href="/">Home</a>
+    <a href="/about/">About Us</a>
+    <a href="/solutions/">Our Solutions</a>
+    <a href="/tech-stack/">Tech Stack</a>
+    <a href="/careers/">Careers</a>
+    <a href="/news/">News</a>
+    <a href="/contacts/">Contacts</a>
+    <a href="/policy/">Privacy Policy</a>
+    <div class="menu-footer">hello@forbet-apps.com</div>
+  </div>
+</nav>
+
+<main>
+
+  <section class="page-hero">
+    <div class="container">
+      <span class="eyebrow">Tech stack</span>
+      <h1>The tools we trust.</h1>
+      <p class="lead">We pick technologies based on long-term maintainability, hiring availability and real product fit — not on hype. Below is the working set we currently build with.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="content-block">
+
+        <p>Our engineering choices reflect a single principle: <strong>boring where it counts, modern where it matters</strong>. The infrastructure layer should be predictable. The user-facing layer can afford to be more adventurous.</p>
+
+        <h3 class="tech-category">Mobile</h3>
+        <div class="tech-grid">
+          <div class="tech-item">Flutter</div>
+          <div class="tech-item">Kotlin</div>
+          <div class="tech-item">Swift</div>
+          <div class="tech-item">Jetpack Compose</div>
+          <div class="tech-item">SwiftUI</div>
+          <div class="tech-item">Dart</div>
+        </div>
+        <p style="margin-top: 16px;">For cross-platform products we lean on Flutter, which gives us a single codebase without sacrificing animation quality. Where a project genuinely needs platform-native depth — deep iOS integration, complex Android background work — we go native with Swift / SwiftUI and Kotlin / Jetpack Compose.</p>
+
+        <h3 class="tech-category">Backend</h3>
+        <div class="tech-grid">
+          <div class="tech-item">Node.js</div>
+          <div class="tech-item">TypeScript</div>
+          <div class="tech-item">Go</div>
+          <div class="tech-item">Python</div>
+          <div class="tech-item">PostgreSQL</div>
+          <div class="tech-item">Redis</div>
+          <div class="tech-item">GraphQL</div>
+          <div class="tech-item">REST</div>
+        </div>
+        <p style="margin-top: 16px;">Our backend services are written in TypeScript on Node.js, with Go used for performance-sensitive components and Python reserved for data and analytics pipelines. PostgreSQL is our default datastore; Redis handles caching and short-lived state.</p>
+
+        <h3 class="tech-category">Infrastructure</h3>
+        <div class="tech-grid">
+          <div class="tech-item">Docker</div>
+          <div class="tech-item">Kubernetes</div>
+          <div class="tech-item">AWS</div>
+          <div class="tech-item">Terraform</div>
+          <div class="tech-item">GitHub Actions</div>
+          <div class="tech-item">CloudFront</div>
+        </div>
+        <p style="margin-top: 16px;">Containerized services, infrastructure as code, and continuous delivery from day one. We do not over-engineer — small services run on managed platforms, larger ones graduate to Kubernetes when they need to.</p>
+
+        <h3 class="tech-category">Data and analytics</h3>
+        <div class="tech-grid">
+          <div class="tech-item">BigQuery</div>
+          <div class="tech-item">dbt</div>
+          <div class="tech-item">Apache Kafka</div>
+          <div class="tech-item">Airflow</div>
+          <div class="tech-item">Looker</div>
+        </div>
+        <p style="margin-top: 16px;">For analytics workloads we use BigQuery with dbt for modeling. Streaming pipelines run on Kafka, scheduled jobs are coordinated through Airflow.</p>
+
+        <h3 class="tech-category">Design and product</h3>
+        <div class="tech-grid">
+          <div class="tech-item">Figma</div>
+          <div class="tech-item">Linear</div>
+          <div class="tech-item">Notion</div>
+          <div class="tech-item">Storybook</div>
+        </div>
+        <p style="margin-top: 16px;">Design files live in Figma with a shared component library. Product work is tracked in Linear, documentation in Notion. UI components are documented in Storybook for the web and a similar pattern catalogue for mobile.</p>
+
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="cta-section">
+        <h2>Want to work with this stack?</h2>
+        <p class="lead">We are actively hiring. Browse open roles or send us a short note.</p>
+        <div class="hero-actions" style="justify-content: center;">
+          <a href="/careers/" class="btn btn-primary btn-arrow">See open roles</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <h4>Legal entity</h4>
+        <p class="legal-name">forBET Zakłady Bukmacherskie Sp. z o.o.</p>
+        <p class="legal-details">
+          <span>Ul. Tamka 16-3</span>
+          <span>00-349 Warszawa, Poland</span>
+          <span>REGON: 240448217</span>
+          <span>NIP: 5482487290</span>
+          <span>KRS: 0000263257</span>
+        </p>
+      </div>
+      <div class="footer-col">
+        <h4>Quick links</h4>
+        <ul>
+          <li><a href="/about/">About Us</a></li>
+          <li><a href="/solutions/">Our Solutions</a></li>
+          <li><a href="/tech-stack/">Tech Stack</a></li>
+          <li><a href="/careers/">Careers</a></li>
+          <li><a href="/news/">News</a></li>
+          <li><a href="/contacts/">Contacts</a></li>
+          <li><a href="/policy/">Privacy Policy</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <p>General inquiries:<br /><a href="mailto:hello@forbet-apps.com">hello@forbet-apps.com</a></p>
+        <p style="margin-top: 16px;">For careers, partnerships and press, please use the contact form on our website.</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 FORBET ZAKŁADY BUKMACHERSKIE SP Z O O. All rights reserved.</span>
+      <a href="/policy/">Privacy Policy</a>
+    </div>
+  </div>
+</footer>
+
+<script src="/assets/script.js"></script>
+</body>
+</html>
